@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trilha do Átomo — Material de apoio para professores de Química</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== PÁGINA INICIAL ===================== -->
+<header id="landing" class="landing">
+  <div class="landing-logos">
+    <img src="assets/images/logos/ufu.webp" alt="Logo UFU — Universidade Federal de Uberlândia" class="logo-ufu">
+    <img src="assets/images/logos/ppgecm.png" alt="Logo PPGECM — Programa de Pós-Graduação em Ensino de Ciências e Matemática" class="logo-ppgecm">
+  </div>
+
+  <div class="orbit" aria-hidden="true">
+    <span class="orbit-path"></span>
+    <span class="orbit-dot"></span>
+  </div>
+
+  <p class="eyebrow">MATERIAL DIDÁTICO · QUÍMICA · ENSINO MÉDIO</p>
+  <h1 class="landing-title">Trilha do<br>Átomo</h1>
+
+  <button id="btn-comecar" class="btn btn-primary btn-large" type="button">Começar</button>
+
+  <p class="landing-sub">Um material de apoio para professores de Química do Ensino Médio</p>
+</header>
+
+<!-- ===================== APLICAÇÃO / MENU PRINCIPAL ===================== -->
+<div id="app" class="app hidden">
+
+  <div class="app-top">
+    <div class="app-brand-group">
+      <img src="assets/images/logos/simbolo-atomo.svg" alt="" class="brand-icon" aria-hidden="true">
+      <span class="brand">Trilha do Átomo</span>
+      <img src="assets/images/logos/ufu.webp" alt="Logo UFU" class="brand-logo">
+      <img src="assets/images/logos/ppgecm.png" alt="Logo PPGECM" class="brand-logo">
+    </div>
+    <button id="btn-voltar-inicio" class="btn-text" type="button">← Início</button>
+  </div>
+
+  <nav class="main-nav" aria-label="Menu principal">
+    <button class="nav-item active" data-tab="sobre">Sobre o projeto</button>
+    <button class="nav-item" data-tab="sequencia">Sequência Didática</button>
+    <button class="nav-item" data-tab="biblioteca">Biblioteca Histórica</button>
+    <button class="nav-item" data-tab="midia">Recursos Multimídia</button>
+    <button class="nav-item" data-tab="jogo">Jogo Físico</button>
+    <button class="nav-item" data-tab="linha">Linha do Tempo</button>
+  </nav>
+
+  <main class="content">
+
+    <!-- ---------- ABA 1: SOBRE O PROJETO ---------- -->
+    <section id="tab-sobre" class="tab-panel active">
+      <h2 class="tab-title">Sobre o projeto</h2>
+
+      <div class="info-block">
+        <h3>Apresentação</h3>
+        <p class="placeholder">[Texto de apresentação do projeto — contexto, motivação e resumo geral a ser inserido aqui.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Quem fez</h3>
+        <p class="placeholder">[Nome do(a) autor(a), instituição, programa de mestrado e orientação.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Objetivos</h3>
+        <p class="placeholder">[Objetivo geral e objetivos específicos do material.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Público-alvo</h3>
+        <p class="placeholder">[Descrição do público — ex.: professores de Química do Ensino Médio.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Duração da sequência histórica</h3>
+        <p class="placeholder">[Quantidade de aulas/horas necessárias para aplicar a sequência.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Competências da BNCC</h3>
+        <p class="placeholder">[Competências gerais/específicas da BNCC relacionadas ao material.]</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Habilidades trabalhadas</h3>
+        <p class="placeholder">[Códigos e descrições das habilidades da BNCC trabalhadas.]</p>
+      </div>
+    </section>
+
+    <!-- ---------- ABA 2: SEQUÊNCIA DIDÁTICA ---------- -->
+    <section id="tab-sequencia" class="tab-panel">
+      <h2 class="tab-title">Sequência Didática</h2>
+
+      <nav class="sub-nav" aria-label="Aulas">
+        <button class="sub-nav-item active" data-aula="aula-1">Aula 1</button>
+        <button class="sub-nav-item" data-aula="aula-2">Aula 2</button>
+        <button class="sub-nav-item" data-aula="aula-3">Aula 3</button>
+        <button class="sub-nav-item" data-aula="aula-4">Aula 4</button>
+        <button class="sub-nav-item" data-aula="aula-5">Aula 5</button>
+      </nav>
+
+      <!-- AULA 1 -->
+      <article id="aula-1" class="aula-panel active">
+        <p class="aula-eyebrow">AULA 1</p>
+        <h3 class="aula-titulo">Introdução</h3>
+        <div class="aula-grid">
+          <div class="aula-item"><h4>Objetivo(s)</h4><p class="placeholder">[Objetivo da aula 1.]</p></div>
+          <div class="aula-item"><h4>Tempo</h4><p class="placeholder">[Duração prevista.]</p></div>
+          <div class="aula-item"><h4>Materiais necessários</h4><p class="placeholder">[Lista de materiais.]</p></div>
+          <div class="aula-item"><h4>Estratégia de ensino</h4><p class="placeholder">[Descrição da estratégia usada.]</p></div>
+          <div class="aula-item"><h4>Perguntas para iniciar</h4><p class="placeholder">[Perguntas disparadoras.]</p></div>
+          <div class="aula-item"><h4>Sugestões de discussão</h4><p class="placeholder">[Pontos para discussão em sala.]</p></div>
+        </div>
+      </article>
+
+      <!-- AULA 2 -->
+      <article id="aula-2" class="aula-panel">
+        <p class="aula-eyebrow">AULA 2</p>
+        <h3 class="aula-titulo">História dos Raios X</h3>
+        <p class="aula-tema placeholder">[Tema: experimento de Crookes, Röntgen e a descoberta dos Raios X.]</p>
+        <div class="aula-grid">
+          <div class="aula-item"><h4>Objetivo(s)</h4><p class="placeholder">[Objetivo da aula 2.]</p></div>
+          <div class="aula-item"><h4>Competência</h4><p class="placeholder">[Competência trabalhada.]</p></div>
+          <div class="aula-item"><h4>Materiais necessários</h4><p class="placeholder">[Lista de materiais.]</p></div>
+          <div class="aula-item"><h4>Desenvolvimento</h4><p class="placeholder">[Descrição do desenvolvimento da aula — tubo de Crookes, experimentos de Röntgen.]</p></div>
+          <div class="aula-item"><h4>Perguntas para discussão</h4><p class="placeholder">[Perguntas sobre Crookes e Röntgen.]</p></div>
+        </div>
+      </article>
+
+      <!-- AULA 3 -->
+      <article id="aula-3" class="aula-panel">
+        <p class="aula-eyebrow">AULA 3</p>
+        <h3 class="aula-titulo">Becquerel, Curie e Rutherford</h3>
+        <div class="aula-grid">
+          <div class="aula-item"><h4>Objetivo(s)</h4><p class="placeholder">[Objetivo da aula 3.]</p></div>
+          <div class="aula-item"><h4>Competência</h4><p class="placeholder">[Competência trabalhada.]</p></div>
+          <div class="aula-item"><h4>Materiais necessários</h4><p class="placeholder">[Lista de materiais.]</p></div>
+          <div class="aula-item"><h4>Desenvolvimento</h4><p class="placeholder">[Descrição do desenvolvimento — descoberta da radioatividade por Becquerel, pesquisas do casal Curie, experimentos de Rutherford.]</p></div>
+          <div class="aula-item"><h4>Perguntas para discussão</h4><p class="placeholder">[Perguntas sobre os três cientistas.]</p></div>
+        </div>
+      </article>
+
+      <!-- AULA 4 -->
+      <article id="aula-4" class="aula-panel">
+        <p class="aula-eyebrow">AULA 4</p>
+        <h3 class="aula-titulo">Radioatividade e os Modelos Atômicos</h3>
+        <div class="aula-grid">
+          <div class="aula-item"><h4>Objetivo(s)</h4><p class="placeholder">[Objetivo da aula 4.]</p></div>
+          <div class="aula-item"><h4>Competência</h4><p class="placeholder">[Competência trabalhada.]</p></div>
+          <div class="aula-item"><h4>Materiais necessários</h4><p class="placeholder">[Lista de materiais.]</p></div>
+          <div class="aula-item"><h4>Desenvolvimento</h4><p class="placeholder">[Descrição — evolução dos modelos atômicos a partir dos estudos sobre radioatividade.]</p></div>
+          <div class="aula-item"><h4>Perguntas para discussão</h4><p class="placeholder">[Perguntas sobre os modelos atômicos.]</p></div>
+        </div>
+      </article>
+
+      <!-- AULA 5 -->
+      <article id="aula-5" class="aula-panel">
+        <p class="aula-eyebrow">AULA 5</p>
+        <h3 class="aula-titulo">Aplicação do Jogo e Avaliação</h3>
+        <div class="aula-grid">
+          <div class="aula-item"><h4>Objetivo(s)</h4><p class="placeholder">[Objetivo da aula 5.]</p></div>
+          <div class="aula-item"><h4>Competência</h4><p class="placeholder">[Competência trabalhada.]</p></div>
+          <div class="aula-item"><h4>Materiais necessários</h4><p class="placeholder">[Lista de materiais — jogo físico, cartas, tabuleiro.]</p></div>
+          <div class="aula-item"><h4>Desenvolvimento</h4><p class="placeholder">[Aplicação do jogo em sala e discussão final.]</p></div>
+          <div class="aula-item"><h4>Avaliação</h4><p class="placeholder">[Critérios/instrumento de avaliação da aprendizagem.]</p></div>
+          <div class="aula-item"><h4>Perguntas para discussão</h4><p class="placeholder">[Perguntas para discussão final.]</p></div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ---------- ABA 3: BIBLIOTECA HISTÓRICA ---------- -->
+    <section id="tab-biblioteca" class="tab-panel">
+      <h2 class="tab-title">Biblioteca Histórica</h2>
+      <p class="tab-intro placeholder">[Breve texto de introdução à biblioteca histórica.]</p>
+
+      <div class="biblioteca-grid">
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/becquerel.jpeg" alt="Henri Becquerel">
+          <h3>Henri Becquerel</h3>
+          <p><strong>Quem foi:</strong> Físico francês pertencente a uma família de cientistas. Seus estudos estavam relacionados principalmente à óptica, à fluorescência e à fosforescência.</p>
+          <p><strong>O que descobriu:</strong> Em 1896, ao investigar a relação entre fluorescência e os recém-descobertos raios X, observou que compostos de urânio sensibilizavam chapas fotográficas mesmo sem exposição à luz solar. Esse fenômeno deu início aos estudos que levariam à descoberta da radioatividade.</p>
+          <p><strong>Curiosidades:</strong> Becquerel inicialmente acreditava que a radiação emitida pelo urânio estava relacionada à fluorescência e à luz. Após seus experimentos, chegou a considerar o fenômeno uma espécie de "fosforescência invisível".</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/marie-curie.jpeg" alt="Marie Curie">
+          <h3>Marie Curie</h3>
+          <p><strong>Quem foi:</strong> Física e matemática polonesa, posteriormente naturalizada francesa. Iniciou seus estudos sobre radioatividade a partir das pesquisas de Henri Becquerel.</p>
+          <p><strong>O que descobriu:</strong> Ao estudar minerais como a pechblenda, percebeu que alguns apresentavam atividade radioativa maior que a do próprio urânio. Suas investigações levaram à identificação do polônio e do rádio e à introdução do termo radioatividade.</p>
+          <p><strong>Curiosidades:</strong> Marie Curie desenvolveu processos de separação química para investigar as substâncias radioativas presentes na pechblenda. Em 1903, recebeu o Nobel de Física juntamente com Pierre Curie e Henri Becquerel; em 1911, recebeu novamente o Nobel, desta vez de Química.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/rutherford.jpeg" alt="Ernest Rutherford">
+          <h3>Ernest Rutherford</h3>
+          <p><strong>Quem foi:</strong> Físico neozelandês que teve papel central nas investigações sobre radioatividade e na construção do modelo atômico nuclear.</p>
+          <p><strong>O que descobriu:</strong> Investigou as radiações emitidas por materiais radioativos, classificando as radiações alfa e beta, estudando a desintegração radioativa e o conceito de meia-vida. Posteriormente, interpretou os resultados dos experimentos de espalhamento de partículas alfa e propôs, em 1911, o modelo atômico nuclear.</p>
+          <p><strong>Curiosidades:</strong> Rutherford trabalhou com diferentes pesquisadores ao longo de sua trajetória, entre eles Frederick Soddy, Hans Geiger e Ernest Marsden. Em 1908, recebeu o Nobel de Química por suas investigações sobre a desintegração dos elementos radioativos.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/crookes.jpeg" alt="William Crookes">
+          <h3>William Crookes</h3>
+          <p><strong>Quem foi:</strong> Químico e físico britânico interessado nos fenômenos produzidos por descargas elétricas em tubos contendo gases rarefeitos.</p>
+          <p><strong>O que descobriu:</strong> Desenvolveu e aperfeiçoou os estudos com o tubo de Crookes, instrumento fundamental para as pesquisas sobre os raios catódicos. Seus experimentos contribuíram para as investigações posteriores sobre a natureza dessas radiações.</p>
+          <p><strong>Curiosidades:</strong> Durante seus experimentos, Crookes observou que a parede de vidro do tubo adquiria um brilho amarelo-esverdeado quando atingida pelos raios. O tubo seria posteriormente utilizado por pesquisadores como Röntgen e Becquerel.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/thomson.jpeg" alt="J. J. Thomson">
+          <h3>J. J. Thomson</h3>
+          <p><strong>Quem foi:</strong> Físico britânico que realizou importantes estudos sobre os raios catódicos e a estrutura da matéria.</p>
+          <p><strong>O que descobriu:</strong> Em 1897, demonstrou que os raios catódicos eram constituídos por partículas subatômicas de carga negativa, posteriormente denominadas elétrons. Também determinou que essas partículas eram muito menores que os átomos.</p>
+          <p><strong>Curiosidades:</strong> Os estudos de Thomson foram fundamentais para questionar a ideia de que o átomo era indivisível. Seu modelo atômico antecedeu o modelo nuclear posteriormente proposto por Rutherford.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/soddy.jpeg" alt="Frederick Soddy">
+          <h3>Frederick Soddy</h3>
+          <p><strong>Quem foi:</strong> Químico inglês que trabalhou juntamente com Ernest Rutherford nas investigações sobre o comportamento dos elementos radioativos.</p>
+          <p><strong>O que descobriu:</strong> Soddy participou das pesquisas que levaram à compreensão da desintegração dos elementos radioativos e da transformação espontânea da matéria. Seus trabalhos com Rutherford contribuíram para consolidar a ideia de que a radioatividade envolvia mudanças no interior do átomo.</p>
+          <p><strong>Curiosidades:</strong> Soddy e Rutherford estudaram principalmente o rádio, o urânio e o tório. Suas pesquisas ajudaram a romper com a antiga ideia de que os elementos químicos eram imutáveis.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/lise-meitner.jpeg" alt="Lise Meitner">
+          <h3>Lise Meitner</h3>
+          <p><strong>Quem foi:</strong> Física que participou de importantes investigações sobre a estrutura do núcleo atômico durante o desenvolvimento da Física nuclear.</p>
+          <p><strong>O que descobriu:</strong> Em 1938, juntamente com Otto Frisch, explicou os resultados obtidos por Otto Hahn e Fritz Strassmann ao bombardear urânio com nêutrons. Meitner concluiu que o núcleo do urânio havia se dividido em núcleos menores, liberando grande quantidade de energia. Esse processo foi denominado fissão nuclear.</p>
+          <p><strong>Curiosidades:</strong> Com a ascensão do nazismo, Meitner precisou deixar a Alemanha e recebeu asilo. Mesmo afastada, continuou mantendo contato científico com pesquisadores alemães. A explicação da fissão foi desenvolvida com a colaboração de seu sobrinho Otto Frisch.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/otto-hahn.jpeg" alt="Otto Hahn">
+          <h3>Otto Hahn</h3>
+          <p><strong>Quem foi:</strong> Químico alemão que realizou pesquisas sobre elementos radioativos e participou das investigações que levaram à identificação da fissão nuclear.</p>
+          <p><strong>O que descobriu:</strong> Em 1938, juntamente com Fritz Strassmann, detectou a presença de bário após bombardear uma amostra de urânio com nêutrons. O resultado experimental foi posteriormente explicado por Lise Meitner e Otto Frisch como consequência da fissão do núcleo de urânio.</p>
+          <p><strong>Curiosidades:</strong> Hahn comunicou a Meitner os resultados sobre a presença do bário. Em 1944, recebeu sozinho o Nobel de Química relacionado à descoberta da fissão nuclear, embora a interpretação física do processo tenha contado com a contribuição de Lise Meitner e Otto Frisch.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/geiger.jpeg" alt="Johannes Wilhelm Geiger">
+          <h3>Johannes Wilhelm Geiger</h3>
+          <p><strong>Quem foi:</strong> Físico alemão que trabalhou com Ernest Rutherford durante as investigações sobre o comportamento das partículas alfa.</p>
+          <p><strong>O que descobriu:</strong> Participou, juntamente com Ernest Marsden, dos experimentos de espalhamento de partículas alfa em lâminas metálicas. As observações dos desvios das partículas forneceram evidências importantes para a interpretação posterior de Rutherford sobre a estrutura nuclear do átomo.</p>
+          <p><strong>Curiosidades:</strong> Geiger realizou suas pesquisas em colaboração direta com Rutherford e Marsden na Universidade de Manchester. Os resultados obtidos pela equipe foram fundamentais para questionar o modelo atômico de Thomson.</p>
+        </article>
+
+        <article class="personagem-card">
+          <img src="assets/images/biblioteca/marsden.jpg" alt="Ernest Marsden">
+          <h3>Ernest Marsden</h3>
+          <p><strong>Quem foi:</strong> Físico inglês que trabalhou com Ernest Rutherford e Johannes Geiger nas investigações sobre o espalhamento de partículas alfa.</p>
+          <p><strong>O que descobriu:</strong> Participou dos experimentos nos quais partículas alfa eram direcionadas contra folhas metálicas. Os desvios observados nas trajetórias das partículas contribuíram para a compreensão de que o átomo possuía uma pequena região central, posteriormente interpretada por Rutherford como o núcleo atômico.</p>
+          <p><strong>Curiosidades:</strong> Marsden participou de uma pesquisa coletiva: os resultados experimentais foram obtidos por meio do trabalho conjunto com Geiger e Rutherford, mostrando justamente a perspectiva histórica que sua dissertação defende, a ciência como uma construção coletiva.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ---------- ABA 4: RECURSOS MULTIMÍDIA ---------- -->
+    <section id="tab-midia" class="tab-panel">
+      <h2 class="tab-title">Recursos Multimídia</h2>
+      <p class="tab-intro">Nesta seção, estão reunidos recursos audiovisuais e interativos que podem complementar o estudo da radioatividade, dos raios X e da construção dos modelos atômicos. Os materiais estão organizados de acordo com os principais temas abordados na sequência didática e podem ser utilizados pelo professor como introdução, aprofundamento ou retomada dos conteúdos. A seleção dos recursos busca aproximar os conhecimentos científicos de seus contextos históricos, sociais e tecnológicos.</p>
+
+      <!-- ===== Tópico 1: Raios X ===== -->
+      <div class="midia-categoria">
+        <h3>Tópico 1: Raios X</h3>
+
+        <article class="recurso-card">
+          <h4>A Revolução do Raio X</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo de divulgação científica</li>
+            <li><strong>Tema:</strong> Descoberta dos raios X</li>
+            <li><strong>Pesquisador relacionado:</strong> Wilhelm Conrad Röntgen</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento de utilização:</strong> Introdução</li>
+          </ul>
+          <p class="recurso-descricao">Vídeo produzido pelo canal Ciência Todo Dia que apresenta a descoberta dos raios X por Wilhelm Conrad Röntgen em 1895 e aborda a importância dessa descoberta para a Ciência e para aplicações posteriores, como a radiografia.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=WJwiBpX1QNQ" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> O vídeo pode ser utilizado como introdução ao contexto científico do final do século XIX, antecedendo a discussão sobre a descoberta da radioatividade. Também possibilita discutir como uma descoberta científica pode estimular novas investigações.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>Quem foi Wilhelm Conrad Röntgen?</li>
+                <li>Em que contexto histórico ocorreu a descoberta dos raios X?</li>
+                <li>Por que essa descoberta foi considerada importante?</li>
+                <li>Que relação pode ser estabelecida entre os estudos sobre os raios X e as investigações posteriores sobre a radioatividade?</li>
+                <li>Como uma descoberta científica pode desencadear novas perguntas e investigações?</li>
+              </ul>
+              <p><strong>Relação com a História da Ciência:</strong> O recurso permite compreender a Ciência como uma construção histórica e coletiva, marcada por descobertas que influenciam e direcionam novas investigações.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+      <!-- ===== Tópico 2: Becquerel e Curie ===== -->
+      <div class="midia-categoria">
+        <h3>Tópico 2: Becquerel e Curie</h3>
+
+        <article class="recurso-card">
+          <h4>Como Marie Curie descobriu a radioatividade e mudou o mundo para sempre</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo de divulgação científica</li>
+            <li><strong>Tema:</strong> Descoberta da radioatividade</li>
+            <li><strong>Pesquisadores relacionados:</strong> Henri Becquerel, Marie Curie e Pierre Curie</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Introdução / desenvolvimento</li>
+          </ul>
+          <p class="recurso-descricao">Vídeo de divulgação científica que apresenta a descoberta da radioatividade e aborda as contribuições de Henri Becquerel, Marie Curie e Pierre Curie.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=ghSKCW-nNx4" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode ser utilizado para introduzir a descoberta da radioatividade e discutir a contribuição de diferentes pesquisadores para a construção de um conhecimento científico.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>Quem descobriu a radioatividade?</li>
+                <li>Qual foi a contribuição de Henri Becquerel?</li>
+                <li>Qual foi a contribuição de Marie e Pierre Curie?</li>
+                <li>Por que a construção de um conhecimento científico pode envolver diferentes pesquisadores?</li>
+                <li>Como as descobertas de um cientista podem influenciar as investigações de outros?</li>
+              </ul>
+              <p><strong>Relação com a História da Ciência:</strong> Muito alta. O recurso permite trabalhar a construção coletiva e histórica do conhecimento científico.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>A história trágica sobre as meninas do rádio</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo de divulgação histórica</li>
+            <li><strong>Tema:</strong> Radium Girls, radioatividade e exposição ocupacional</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Material que apresenta a história das trabalhadoras conhecidas como Radium Girls, cuja trajetória está relacionada à utilização do rádio em atividades industriais no início do século XX e aos conhecimentos que foram sendo construídos sobre os efeitos da exposição à radiação.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=Q6aljwCwwGc" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> O material amplia a discussão sobre radioatividade para além de sua descoberta, permitindo abordar as relações entre Ciência, indústria, trabalho, saúde, segurança e sociedade.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>Que conhecimentos sobre os efeitos da radiação estavam disponíveis naquele período?</li>
+                <li>Como novos conhecimentos científicos podem modificar práticas sociais?</li>
+                <li>Qual é a relação entre Ciência, indústria e segurança do trabalho?</li>
+                <li>Que responsabilidades podem estar envolvidas na utilização de novas tecnologias?</li>
+              </ul>
+              <p><strong>Relação com a História da Ciência:</strong> Permite discutir que o conhecimento científico é histórico, provisório e construído a partir de novas evidências.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+      <!-- ===== Tópico 3: Rutherford e os modelos atômicos ===== -->
+      <div class="midia-categoria">
+        <h3>Tópico 3: Rutherford e os modelos atômicos</h3>
+
+        <article class="recurso-card">
+          <h4>Jogo da Datação Radioativa — PhET</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Simulação interativa</li>
+            <li><strong>Tema:</strong> Radioatividade, decaimento, meia-vida e datação radiométrica</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Desenvolvimento / aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Simulação interativa que permite explorar o processo de decaimento radioativo e compreender a utilização da radioatividade na datação de materiais. O próprio PhET apresenta como objetivos compreender o conceito de meia-vida, processos de decaimento e funcionamento da datação radiométrica.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://phet.colorado.edu/pt_BR/simulations/radioactive-dating-game/about?locale=pt_BR" target="_blank" rel="noopener">Acessar simulação</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode ser utilizada como atividade exploratória após a introdução dos conceitos de decaimento radioativo e meia-vida.</p>
+              <p><strong>Como utilizar:</strong> Os estudantes podem explorar a simulação individualmente ou em pequenos grupos e registrar suas observações para posterior discussão coletiva.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>O que acontece com uma amostra radioativa ao longo do tempo?</li>
+                <li>O que significa meia-vida?</li>
+                <li>Como o decaimento radioativo pode ser utilizado para determinar idades?</li>
+                <li>Por que diferentes elementos podem ser utilizados na datação de diferentes materiais?</li>
+                <li>Qual é a diferença entre uma simulação e a observação direta de um fenômeno?</li>
+              </ul>
+              <p><strong>Relação com a História da Ciência:</strong> Permite relacionar conhecimentos sobre radioatividade e decaimento com uma das aplicações desenvolvidas a partir da compreensão dos fenômenos radioativos.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+      <!-- ===== Tópico 4: Filmes e Documentários ===== -->
+      <div class="midia-categoria">
+        <h3>Tópico 4: Filmes e Documentários</h3>
+
+        <article class="recurso-card">
+          <h4>Radioativo — Radioactive (2019)</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Longa-metragem biográfico</li>
+            <li><strong>Tema:</strong> Marie Curie e radioatividade</li>
+            <li><strong>Pesquisadores relacionados:</strong> Marie Curie e Pierre Curie</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Classificação:</strong> 14 anos</li>
+            <li><strong>Momento:</strong> Aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Filme baseado na trajetória de Marie Curie e em suas pesquisas científicas realizadas em parceria com Pierre Curie. A Netflix Brasil classifica a produção como drama de 2019, com classificação de 14 anos, e a apresenta como uma obra baseada na vida real.</p>
+          <p class="recurso-disponibilidade"><strong>Onde assistir:</strong> Radioativo — Radioactive (2019), disponível na Netflix.</p>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode ser utilizado para discutir a trajetória de Marie Curie, a construção do conhecimento sobre radioatividade, o contexto histórico da produção científica e a participação feminina na Ciência.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>Como Marie Curie é representada no filme?</li>
+                <li>Quais acontecimentos apresentados estão relacionados aos episódios históricos estudados?</li>
+                <li>Quais elementos parecem ser escolhas cinematográficas?</li>
+                <li>Como o contexto histórico influenciou a produção científica?</li>
+                <li>Como a participação feminina na Ciência é apresentada?</li>
+              </ul>
+              <p><strong>Observação ao professor:</strong> O filme é uma representação cinematográfica, e não um documento histórico neutro. Recomenda-se discutir com os estudantes as diferenças entre os acontecimentos históricos e a maneira como são representados pela obra.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>Césio 137 — O Pesadelo de Goiânia (1990)</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Longa-metragem brasileiro</li>
+            <li><strong>Tema:</strong> Acidente radiológico de Goiânia</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Produção brasileira baseada no acidente radiológico ocorrido em Goiânia em 1987.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=H_MIihflZLA" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Permite discutir a radioatividade em um contexto social concreto, relacionando Ciência, tecnologia, informação, segurança e sociedade.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>O que caracteriza um acidente radiológico?</li>
+                <li>Qual a diferença entre exposição e contaminação?</li>
+                <li>Qual foi a importância do conhecimento científico durante o acidente?</li>
+                <li>Como a falta de informação pode contribuir para situações de risco?</li>
+                <li>Que relações podem ser estabelecidas entre Ciência e sociedade?</li>
+              </ul>
+              <p><strong>Observação ao professor:</strong> Por abordar um acontecimento real e suas consequências para a população, recomenda-se mediação docente e seleção dos trechos de acordo com a maturidade da turma.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>Césio 137 em Goiânia: a cronologia do maior desastre radiativo do Brasil</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo jornalístico / histórico</li>
+            <li><strong>Tema:</strong> Acidente radiológico de Goiânia</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Desenvolvimento / aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Material que apresenta cronologicamente os principais acontecimentos relacionados ao acidente com Césio-137 em Goiânia.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=4xcZQ9ufxfk" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode complementar o longa-metragem e permitir que os estudantes comparem diferentes formas de representação de um mesmo acontecimento.</p>
+              <p><strong>Questão central:</strong> Como diferentes fontes podem representar um mesmo acontecimento histórico?</p>
+              <p><strong>Relação com a História da Ciência:</strong> Esse recurso é especialmente interessante para discutir fontes, narrativas e construção histórica do conhecimento sobre acontecimentos científicos e tecnológicos.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>Chernobyl: A História Completa</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo/documentário histórico</li>
+            <li><strong>Tema:</strong> Acidente nuclear de Chernobyl</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Complementar / aprofundamento</li>
+          </ul>
+          <p class="recurso-descricao">Material que apresenta o acidente ocorrido em Chernobyl e seus principais acontecimentos históricos.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=DiGqjYkRQ6o&t=21s" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode ser utilizado para ampliar a discussão sobre tecnologia nuclear, segurança, riscos tecnológicos e impactos sociais e ambientais.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>O que caracteriza um acidente nuclear?</li>
+                <li>Que fatores podem estar envolvidos em acidentes tecnológicos?</li>
+                <li>Qual é a relação entre conhecimento científico, tecnologia e sociedade?</li>
+                <li>Como acontecimentos científicos e tecnológicos podem produzir impactos sociais?</li>
+              </ul>
+              <p><strong>Observação:</strong> Recomenda-se manter esse material como complementar, para que Chernobyl não tire o foco da sequência, que é a História da Ciência relacionada à radioatividade.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>A tragédia de Hiroshima e Nagasaki | HISTORY</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Documentário / especial histórico</li>
+            <li><strong>Tema:</strong> História da Ciência e aplicações da energia nuclear</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Complementar</li>
+          </ul>
+          <p class="recurso-descricao">Material histórico relacionado aos acontecimentos de Hiroshima e Nagasaki e ao contexto da Segunda Guerra Mundial.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=YEKQYiWnvcI" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode contribuir para uma discussão sobre as diferentes relações entre conhecimento científico, desenvolvimento tecnológico e sociedade.</p>
+              <p><strong>Questões para discussão:</strong></p>
+              <ul>
+                <li>Um mesmo conhecimento científico pode possuir diferentes aplicações?</li>
+                <li>Qual é a relação entre Ciência, tecnologia e sociedade?</li>
+                <li>Quais questões éticas podem surgir a partir da aplicação de conhecimentos científicos?</li>
+              </ul>
+              <p><strong>Observação ao professor:</strong> Recomenda-se contextualização histórica e mediação docente, evitando uma abordagem que reduza o conteúdo exclusivamente ao aspecto tecnológico.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>40 anos do desastre de Chernobyl: o que aconteceu no maior acidente nuclear da história</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Vídeo jornalístico / retrospectiva histórica</li>
+            <li><strong>Tema:</strong> Chernobyl e memória histórica</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Momento:</strong> Complementar</li>
+          </ul>
+          <p class="recurso-descricao">Material de caráter retrospectivo que revisita o acidente de Chernobyl e sua permanência na memória social.</p>
+          <a class="recurso-link btn btn-outline btn-small" href="https://www.youtube.com/watch?v=FxR1pJycyCM" target="_blank" rel="noopener">Acessar vídeo</a>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> Pode ser utilizado para discutir como acontecimentos científicos e tecnológicos são reinterpretados e revisitados ao longo do tempo.</p>
+              <p><strong>Questão para discussão:</strong> Como a memória de um acontecimento científico e tecnológico é construída ao longo do tempo?</p>
+              <p><strong>Relação com a História da Ciência:</strong> Possibilita discutir a relação entre acontecimentos científicos, memória, sociedade e produção histórica.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="recurso-card">
+          <h4>Emergência Radioativa (2026)</h4>
+          <ul class="recurso-meta">
+            <li><strong>Tipo:</strong> Minissérie de ficção inspirada em acontecimentos reais</li>
+            <li><strong>Tema:</strong> Acidente radiológico de Goiânia</li>
+            <li><strong>Público:</strong> Ensino Médio</li>
+            <li><strong>Classificação:</strong> 12 anos</li>
+            <li><strong>Momento:</strong> Aprofundamento / discussão social</li>
+          </ul>
+          <p class="recurso-descricao">Minissérie brasileira de 2026 inspirada no acidente radiológico de Goiânia. A produção acompanha físicos e médicos envolvidos na resposta ao desastre e apresenta os acontecimentos a partir de uma narrativa dramatizada. A Netflix informa que a série possui cinco episódios e classificação de 12 anos.</p>
+          <p class="recurso-disponibilidade"><strong>Onde assistir:</strong> Emergência Radioativa (2026), disponível na Netflix.</p>
+          <details class="como-utilizar">
+            <summary>Como utilizar em sala de aula</summary>
+            <div class="como-utilizar-conteudo">
+              <p><strong>Possibilidades pedagógicas:</strong> É particularmente interessante para comparar diferentes formas de representação de um mesmo acontecimento histórico, já que sua plataforma também terá Césio 137 – O Pesadelo de Goiânia.</p>
+              <p><strong>Questão para os estudantes:</strong> Como diferentes produções audiovisuais podem representar um mesmo acontecimento histórico de maneiras diferentes?</p>
+              <p><strong>Atividade comparativa:</strong> Césio 137 – O Pesadelo de Goiânia × Emergência Radioativa</p>
+              <ul>
+                <li>O que as duas produções apresentam em comum?</li>
+                <li>O que muda?</li>
+                <li>Quem aparece como protagonista?</li>
+                <li>Como a população é representada?</li>
+                <li>Como os cientistas são representados?</li>
+                <li>O que é fato histórico e o que é escolha narrativa?</li>
+              </ul>
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <!-- ---------- ABA 5: JOGO FÍSICO ---------- -->
+    <section id="tab-jogo" class="tab-panel">
+      <h2 class="tab-title">Jogo Físico</h2>
+
+      <div class="info-block">
+        <h3>Como jogar o jogo</h3>
+        <p>O jogo <em>"A Trilha dos Átomos"</em> é composto por:</p>
+        <ul class="regra-list">
+          <li>Um tabuleiro em formato de trilha;</li>
+          <li>Casas especiais com desafios e recompensas;</li>
+          <li>Perguntas relacionadas à história da ciência, radioatividade e modelos atômicos;</li>
+          <li>Cartas ou enunciados contendo questões de múltipla escolha;</li>
+          <li>Gabarito para conferência das respostas;</li>
+          <li>Peões e dado.</li>
+        </ul>
+        <p>As perguntas abordam cientistas importantes para o desenvolvimento da teoria atômica, como John Dalton, J. J. Thomson, Ernest Rutherford, Henri Becquerel e Marie Curie, além de conceitos relacionados à radioatividade, partículas alfa, descoberta do elétron e estrutura do átomo.</p>
+        <p>Além das questões conceituais, o jogo apresenta elementos lúdicos, como avanço de casas, perda de rodada, troca de posições e bônus, buscando tornar a atividade mais dinâmica e motivadora.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Objetivos pedagógicos do jogo</h3>
+        <p>O jogo foi elaborado visando atingir os seguintes objetivos pedagógicos:</p>
+        <ul class="regra-list">
+          <li>Relacionar a descoberta da radioatividade com a evolução dos modelos atômicos;</li>
+          <li>Compreender o papel dos cientistas no desenvolvimento da ciência;</li>
+          <li>Estimular o raciocínio e a participação ativa dos estudantes;</li>
+          <li>Favorecer a aprendizagem colaborativa;</li>
+          <li>Desenvolver a interpretação e discussão de conceitos científicos;</li>
+          <li>Possibilitar uma abordagem histórica da ciência no ensino de Química.</li>
+        </ul>
+      </div>
+
+      <div class="info-block">
+        <h3>Como jogar</h3>
+        <p>Inicialmente, a turma deve ser dividida em grupos, preferencialmente com três a cinco estudantes. Cada grupo escolhe um peão para representá-lo no tabuleiro. Em seguida, define-se a ordem das jogadas por meio do lançamento do dado.</p>
+        <p>Durante sua vez, o grupo lança o dado e avança o número correspondente de casas na trilha. Ao parar em uma casa contendo pergunta, o grupo deverá responder à questão apresentada pelo mediador da atividade, que pode ser o professor ou um estudante responsável pela leitura das cartas.</p>
+        <p>As perguntas são de múltipla escolha e envolvem conteúdos relacionados à radioatividade, aos modelos atômicos e à história da ciência. Caso o grupo responda corretamente, permanece na posição conquistada ou recebe benefícios adicionais, dependendo das regras da casa especial. Caso a resposta esteja incorreta, o professor poderá abrir espaço para discussão coletiva, incentivando a reflexão sobre o conceito abordado.</p>
+      </div>
+
+      <div class="info-block">
+        <h4>Casas especiais</h4>
+        <p>O jogo contém casas especiais com comandos específicos, como:</p>
+        <ul class="regra-list">
+          <li>"Avance duas casas"</li>
+          <li>"Volte uma casa"</li>
+          <li>"Fique uma rodada sem jogar"</li>
+          <li>"Troque de posição com outro grupo"</li>
+          <li>"Você fez uma grande descoberta"</li>
+          <li>"Experimento falhou"</li>
+        </ul>
+        <p>O vencedor será o grupo que alcançar primeiro o final da trilha.</p>
+      </div>
+
+      <div class="jogo-downloads">
+        <a href="assets/downloads/jogo-trilha-do-atomo.pdf" class="btn btn-primary" download="Jogo Trilhas do Átomo.pdf">Baixar arquivos do jogo</a>
+        <a href="assets/downloads/cartas-jogo-trilha-do-atomo.pdf" class="btn btn-outline" download="Cartas do Jogo Trilhas do Átomo.pdf">Baixar cartas do jogo</a>
+      </div>
+    </section>
+
+    <!-- ---------- ABA 6: LINHA DO TEMPO ---------- -->
+    <section id="tab-linha" class="tab-panel">
+      <h2 class="tab-title">Linha do Tempo</h2>
+      <p class="tab-intro">A compreensão da radioatividade e da estrutura do átomo foi construída gradualmente, a partir de diferentes experimentos, hipóteses e interpretações. Nesta linha do tempo, acompanhe alguns dos principais acontecimentos que contribuíram para o desenvolvimento desses conhecimentos.</p>
+
+      <div class="timeline" id="timeline">
+        <ol class="timeline-trail">
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="1">1</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">Final do século XIX</span>
+                  <span class="timeline-titulo">Os tubos de Crookes e os raios catódicos</span>
+                </summary>
+                <p class="timeline-desc">William Crookes investigou fenômenos produzidos por descargas elétricas em tubos contendo gases rarefeitos. Seus estudos contribuíram para as pesquisas posteriores sobre os raios catódicos e a estrutura da matéria.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="2">2</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1895</span>
+                  <span class="timeline-titulo">A descoberta dos raios X</span>
+                </summary>
+                <p class="timeline-desc">Wilhelm Conrad Röntgen observou uma nova forma de radiação durante experimentos com tubos de raios catódicos. Por desconhecer sua natureza, chamou-a de raios X. A descoberta despertou grande interesse entre os cientistas da época.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="3">3</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1896</span>
+                  <span class="timeline-titulo">Becquerel observa a radioatividade</span>
+                </summary>
+                <p class="timeline-desc">Henri Becquerel investigou compostos de urânio e observou que eles eram capazes de sensibilizar chapas fotográficas mesmo sem exposição direta à luz. A observação revelou um novo fenômeno que posteriormente seria denominado radioatividade.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="4">4</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1897</span>
+                  <span class="timeline-titulo">A descoberta do elétron</span>
+                </summary>
+                <p class="timeline-desc">J. J. Thomson demonstrou que os raios catódicos eram constituídos por partículas de carga negativa. Essas partículas, posteriormente chamadas de elétrons, mostraram que o átomo possuía componentes menores.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="5">5</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1898</span>
+                  <span class="timeline-titulo">A radioatividade é investigada em outros elementos</span>
+                </summary>
+                <p class="timeline-desc">Marie Curie e G. C. Schmidt investigaram materiais diferentes do urânio e observaram que compostos de tório também emitiam radiações. Curie também percebeu que alguns minerais apresentavam atividade maior que a do próprio urânio.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="6">6</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1898</span>
+                  <span class="timeline-titulo">Rutherford inicia suas pesquisas sobre radioatividade</span>
+                </summary>
+                <p class="timeline-desc">Após entrar em contato com os estudos de Becquerel, Ernest Rutherford passou a investigar a radioatividade. Na Universidade McGill, desenvolveu pesquisas em colaboração com outros cientistas, incluindo Frederick Soddy.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="7">7</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1899</span>
+                  <span class="timeline-titulo">As radiações alfa e beta</span>
+                </summary>
+                <p class="timeline-desc">Rutherford estudou a penetração das radiações emitidas pelo urânio e identificou diferentes comportamentos. A partir dessas investigações, introduziu os termos alfa (α) e beta (β) para diferenciá-las.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="8">8</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1900</span>
+                  <span class="timeline-titulo">O conceito de meia-vida</span>
+                </summary>
+                <p class="timeline-desc">Em experimentos com compostos de tório, Rutherford acompanhou a diminuição da intensidade da radiação. Esses estudos contribuíram para a definição do conceito de meia-vida, relacionado ao tempo necessário para que a intensidade da radiação diminua pela metade.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="9">9</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1903</span>
+                  <span class="timeline-titulo">A desintegração dos elementos radioativos</span>
+                </summary>
+                <p class="timeline-desc">Os estudos de Rutherford e Frederick Soddy contribuíram para a compreensão de que os elementos radioativos poderiam sofrer transformações. A radioatividade passou a ser relacionada a mudanças no interior dos átomos.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="10">10</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1903</span>
+                  <span class="timeline-titulo">O reconhecimento científico da radioatividade</span>
+                </summary>
+                <p class="timeline-desc">Henri Becquerel, Marie Curie e Pierre Curie receberam o Prêmio Nobel de Física por suas pesquisas relacionadas à radioatividade. O reconhecimento marcou um momento importante na consolidação desse novo campo de investigação.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="11">11</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1909</span>
+                  <span class="timeline-titulo">O espalhamento das partículas alfa</span>
+                </summary>
+                <p class="timeline-desc">Hans Geiger e Ernest Marsden realizaram experimentos de espalhamento de partículas alfa em folhas metálicas. Algumas partículas sofreram grandes desvios em suas trajetórias, produzindo resultados que seriam fundamentais para a interpretação de Rutherford.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="12">12</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1911</span>
+                  <span class="timeline-titulo">O modelo atômico nuclear</span>
+                </summary>
+                <p class="timeline-desc">A partir dos resultados dos experimentos de Geiger e Marsden, Rutherford propôs um novo modelo atômico. O átomo seria constituído, em sua maior parte, por espaço vazio e possuiria uma pequena região central concentrada, o núcleo.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="13">13</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1938</span>
+                  <span class="timeline-titulo">A descoberta da fissão nuclear</span>
+                </summary>
+                <p class="timeline-desc">Otto Hahn e Fritz Strassmann identificaram a presença de bário após o bombardeamento do urânio com nêutrons. Lise Meitner e Otto Frisch interpretaram o resultado como consequência da divisão do núcleo de urânio, processo posteriormente denominado fissão nuclear.</p>
+              </details>
+            </div>
+          </li>
+
+          <li class="timeline-evento">
+            <button class="timeline-marcador" type="button" data-evento="14">14</button>
+            <div class="timeline-conteudo">
+              <details class="timeline-details">
+                <summary>
+                  <span class="timeline-ano">1939</span>
+                  <span class="timeline-titulo">A explicação da fissão nuclear</span>
+                </summary>
+                <p class="timeline-desc">Os resultados sobre o comportamento do urânio foram publicados, enquanto a interpretação da divisão do núcleo foi desenvolvida por Lise Meitner e Otto Frisch. A compreensão da fissão ampliou os estudos sobre as transformações nucleares.</p>
+              </details>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
