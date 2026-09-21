@@ -1,7 +1,6 @@
 # Trilha do Átomo
 
-🔗 **Acesse o site:** [https://SEU-USUARIO.github.io/trilha-do-atomo/](https://SEU-USUARIO.github.io/trilha-do-atomo/)
-*(substitua o link acima pelo endereço real após publicar o site com o GitHub Pages — assim qualquer pessoa consegue abrir o material direto no navegador, sem precisar baixar o código)*
+🔗 **Acesse o site:** [https://lorenacecelotti.github.io/Trilha-do-atomo-UFU/](https://lorenacecelotti.github.io/Trilha-do-atomo-UFU/)
 
 ---
 
@@ -31,10 +30,10 @@ Site estático desenvolvido em **HTML, CSS e JavaScript** puros, sem frameworks 
 Não é necessária instalação. Basta baixar ou clonar este repositório e abrir o arquivo `index.html` em qualquer navegador:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/trilha-do-atomo.git
+git clone https://github.com/lorenacecelotti/Trilha-do-atomo-UFU.git
 ```
 
-Depois, abra `trilha-do-atomo/index.html`.
+Depois, abra `index.html`.
 
 ## Estrutura de pastas
 
